@@ -66,7 +66,9 @@ def largest_palindrome(list_of_nums):
     return y
 
 three_digit_nums = list(range(100, 1000))
-largest_palindrome(three_digit_nums)
+output = largest_palindrome(three_digit_nums)
+
+print (f"The largest palindrome within the range indicated is {output}")
 
 ```
 
