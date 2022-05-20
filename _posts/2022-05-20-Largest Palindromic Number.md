@@ -1,6 +1,6 @@
 layout: post
 title: Largest Palindromic Number
-image: "/posts/palindrome_post.jpg"
+image: "/posts/dummy_pp.jpeg"
 tags: [Palindrome, Python]
 ---
 
