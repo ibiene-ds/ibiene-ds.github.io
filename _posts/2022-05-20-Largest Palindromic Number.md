@@ -9,7 +9,7 @@ tags: [Palindrome, Python]
 
 ---
 
-A palindrome is a word/set of nmbers that reads the same from both ends. Sounds cool right? I did some googling to find some interesting facts and this excerpt from the Merriam-Webster dictionary is pretty cool:
+A palindrome is a word/set of numbers that reads the same from both ends. Sounds cool right? I did some googling to find some interesting facts and this excerpt from the Merriam-Webster dictionary is pretty cool:
 
 Palindrome comes from Greek palindromos, meaning "running back again," which itself is from palin ("back," "again") and dramein ("to run"). Nowadays, we appreciate a  clever palindrome—such as "Drab as a fool, aloof as a bard" or "A man, a plan, a canal: Panama"—or even a simple one like "race car," but in the past palindromes were more than just smart wordplay. Some folks thought they were magical, and they carved them on walls or amulets for protection (https://www.merriam-webster.com/dictionary/palindrome)
 
