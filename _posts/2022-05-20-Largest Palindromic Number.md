@@ -1,6 +1,7 @@
+---
 layout: post
 title: Largest Palindromic Number
-image: "/posts/dummy_pp.jpeg"
+image: "/posts/palindrome_post.jpg"
 tags: [Palindrome, Python]
 ---
 
@@ -68,4 +69,7 @@ three_digit_nums = list(range(100, 1000))
 largest_palindrome(three_digit_nums)
 
 ```
+
+
+![alt text](/img/posts/palindrome_post.jpg "Random picture of numbers :)!")
 
