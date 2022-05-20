@@ -15,6 +15,8 @@ Palindrome comes from Greek palindromos, meaning "running back again," which its
 
 In this simple project, I am going to create the largest palindrome made from the product of two 3-digit numbers - this is one of the first python challenges I did. Enjoy!
 
+You can try it out using the web app here:
+
 ```python
 def is_palindrome(number):
     """
@@ -71,5 +73,5 @@ output = largest_palindrome(three_digit_nums)
 print (f"The largest palindrome within the range indicated is {output}")
 
 ```
-
+### The largest palindrome within the range indicated is 906609
 
