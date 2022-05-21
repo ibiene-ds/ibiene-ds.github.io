@@ -1,15 +1,9 @@
 ---
 layout: post
 title: Basic String Compressor
-image: "/posts/coffee_python.jpg"
-tags: [Python, Coffee]
+image: "/posts/string_compressor_pic.jpg"
+tags: [Python, String Compressor, Run Length Encoder]
 ---
-
-# My first project
-## is all about
-### how much
-#### I LOVE
-##### Python & Coffee!
 
 ---
 
