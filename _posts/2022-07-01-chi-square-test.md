@@ -78,6 +78,8 @@ Our results here also do not say that there *definitely isn't a difference betwe
 
 Running more A/B Tests like this, gathering more data, and then re-running this test may provide us, and the client more insight!
 
+<br>
+<br>
 
 ### Notebook <a name="overview-notebook"></a>
 
@@ -87,8 +89,9 @@ More details and code used in this project can be found in the Jupyter Notebook 
 <br>
 <br>
 
-___
 If you're interested, below is a brief overview of the concepts used in this project.
+
+___
 
 # Concept Overview  <a name="concept-overview"></a>
 
