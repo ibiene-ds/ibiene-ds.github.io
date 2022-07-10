@@ -11,7 +11,7 @@ If you're not sure what a Prime number is, it is a number that can only be divid
 
 View code here: [Finding Primes](https://github.com/ibiene-ds/finding-primes/blob/main/Finding%20Primes.ipynb)
 
-The web app can be found here: 
+The web app can be found here: [Find Primes Web App](https://ibiene-ds-finding-primes-primes-app-8a5ezt.streamlitapp.com/)
 
 ---
 
