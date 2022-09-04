@@ -34,6 +34,12 @@ F1-score:
 
 As well, see the feature importances and permutation importance of the various input variables. 
 
+![alt text](/img/posts/rf-classification-feature-importance.png "Random Forest Feature Importance Plot")
+<br>
+<br>
+![alt text](/img/posts/rf-classification-permutation-importance.png "Random Forest Permutation Importance Plot")
+
+
 <br>
 **Metric 1: Classification Accuracy**
 
