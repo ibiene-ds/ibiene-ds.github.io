@@ -12,11 +12,11 @@ ___
 
 Our client, a grocery retailer, sent out mailers in a marketing campaign for their new *delivery club*.  This cost customers $100 per year for membership, and offered free grocery deliveries, rather than the normal cost of $10 per delivery.
 
-For this, they sent mailers to their entire customer base (apart from a control group) but this proved expensive.  For the next batch of communications they would like to save costs by *only* mailing customers that were likely to sign up.
+For this, they sent mailers to their entire customer base (apart from a control group) but this proved expensive.  **For the next batch of communications they would like to save costs by *only* mailing customers that were likely to sign up.**
 
 Based upon the results of the last campaign and the customer data available, we will look to understand the *probability* of customers signing up for the *delivery club*.  This would allow the client to mail a more targeted selection of customers, lowering costs, and improving ROI.
 
-Let's use Machine Learning to take on this task!
+We will use different classification algorithms to take on this task!
 <br>
 <br>
 
@@ -24,7 +24,15 @@ Let's use Machine Learning to take on this task!
 
 The goal for the project was to build a model that would accurately predict the customers that would sign up for the *delivery club*.  This would allow for a much more targeted approach when running the next iteration of the campaign.  A secondary goal was to understand what the drivers for this are, so the client can get closer to the customers that need or want this service, and enhance their messaging.
 
-Based upon these, the chosen the model is the Random Forest as it was a) the most consistently performant on the test set across classication accuracy, precision, recall, and f1-score, and b) the feature importance and permutation importance allows the client an understanding of the key drivers behind *delivery club* signups. See table below for summary of results.
+Based upon these, the chosen model is the Random Forest as it was a) the most consistently performant on the test set across classication accuracy, precision, recall, and f1-score, and b) the feature importance and permutation importance allows the client an understanding of the key drivers behind *delivery club* signups. See table below for summary of all model results.
+
+Classification Accuracy:
+Precision:
+Recall:
+F1-score: 
+
+
+As well, see the feature importances and permutation importance of the various input variables. 
 
 <br>
 **Metric 1: Classification Accuracy**
