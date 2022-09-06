@@ -5,7 +5,7 @@ image: "/posts/clustering-title-img.png"
 tags: [Customer Segmentation, Machine Learning, Clustering, Python]
 ---
 
-In this project, we use k-means clustering to segment up the customer base in order to increase business understanding, and to enhance the relevancy of targeted messaging & customer communications.
+In this project, we use k-means clustering to segment up our client's customer base in order to increase business understanding, and to enhance the relevancy of targeted messaging & customer communications.
 
 ___
 
@@ -16,12 +16,10 @@ They have asked us to use data, and Machine Learning to help segment up their cu
 Since this is an *unsupervised* classification problem, the k-Means clustering algorithm would do a superb job in segmenting the customer base. 
 <br>
 <br>
-More details on the project can be found here: 
-
+**More details on the project can be found in the Jupyter Notebook here: [Customer Segmentation](https://github.com/ibiene-ds/customer-segmentation)**
 <br>
 <br>
-
-### Results <a name="overview-results"></a>
+### Results
 
 Based upon iterative testing using WCSS we settled on a customer segmentation with 3 clusters. These clusters ranged in size: <br>
 
@@ -39,7 +37,8 @@ Finally customers in *Cluster 2* spent significant portions within Dairy, Fruit 
 
 <br>
 <br>
-### Growth/Next Steps <a name="overview-growth"></a>
+### Growth/Next Steps
+<br>
 
 It would be interesting to run this clustering/segmentation at a lower level of product areas, so rather than just the four areas of Meat, Dairy, Fruit, Vegetables - clustering spend across the sub-categories *below* those categories.  This would mean we could create more specific clusters, and get an even more granular understanding of dietary preferences within the customer base.
 
