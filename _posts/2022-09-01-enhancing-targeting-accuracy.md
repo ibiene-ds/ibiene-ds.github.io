@@ -26,10 +26,13 @@ The goal for the project was to build a model that would accurately predict the 
 
 Based upon these, the chosen model is the Random Forest as it was a) the most consistently performant on the test set across classication accuracy, precision, recall, and f1-score, and b) the feature importance and permutation importance allows the client an understanding of the key drivers behind *delivery club* signups. See table below for summary of all model results.
 
-Classification Accuracy:
-Precision:
-Recall:
-F1-score: 
+![alt text](/img/posts/model_summary.png "Summary of Model Results")
+
+**Classification Accuracy**:A very intuitive metric, the accuracy measures the number of correct classification predictions out of all predictions made. This number could be very misleading when you have very imbalanced data. An example of imbalanced data is a dataset where we have a 98%/2% split across 2 classes. 
+**Precision**: Answers the question: of all observations predicted as positive, what proportion was actually positive?
+**Recall**: Answers the question: of all positive observations, how many did we predict as positive?
+Usually, trying to improve *Precision* has the opposite effect on *Recall* and vice versa. So what metric to focus on is purely based on the project goals. 
+**F1-score**: Harmonic mean of Precision and Recall. A good F1-score comes when there is a balance between precision and recall. 
 
 
 As well, see the feature importances and permutation importance of the various input variables. 
@@ -40,42 +43,7 @@ As well, see the feature importances and permutation importance of the various i
 ![alt text](/img/posts/rf-classification-permutation-importance.png "Random Forest Permutation Importance Plot")
 
 
-<br>
-**Metric 1: Classification Accuracy**
 
-* KNN = 0.936
-* Random Forest = 0.935
-* Decision Tree = 0.929
-* Logistic Regression = 0.866
-
-<br>
-**Metric 2: Precision**
-
-* KNN = 1.00
-* Random Forest = 0.887
-* Decision Tree = 0.885
-* Logistic Regression = 0.784
-
-<br>
-**Metric 3: Recall**
-
-* Random Forest = 0.904
-* Decision Tree = 0.885
-* KNN = 0.762
-* Logistic Regression = 0.69
-
-<br>
-**Metric 4: F1 Score**
-
-* Random Forest = 0.895
-* Decision Tree = 0.885
-* KNN = 0.865
-* Logistic Regression = 0.734
-<br>
-<br>* Logistic Regression = 0.734
-
-___
-<br>
 # Application <a name="modelling-application"></a>
 
 We now have a model object, and the required pre-processing steps to use this model for the next *delivery club* campaign.  When this is ready to launch we can aggregate the neccessary customer information and pass it through, obtaining predicted probabilities for each customer signing up.
