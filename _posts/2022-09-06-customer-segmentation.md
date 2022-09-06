@@ -19,7 +19,6 @@ Since this is an *unsupervised* classification problem, the k-Means clustering a
 **More details on the project can be found in the Jupyter Notebook here: [Customer Segmentation](https://github.com/ibiene-ds/customer-segmentation)**
 <br>
 <br>
-___
 
 ### Results
 
@@ -36,11 +35,10 @@ For *Cluster 0* we saw a significant portion of spend being allocated to each of
 For *Cluster 1* we saw quite high proportions of spend being allocated to Fruit & Vegetables, but very little to the Dairy & Meat product areas.  It could be hypothesised that these customers are following a vegan diet.  
 
 Finally customers in *Cluster 2* spent significant portions within Dairy, Fruit & Vegetables, but very little in the Meat product area - so similarly, we would make an early hypothesis that these customers are more along the lines of those following a vegetarian diet.
+<br>
+<br>
 
-<br>
-___
 ### Growth/Next Steps
-<br>
 
 It would be interesting to run this clustering/segmentation at a lower level of product areas, so rather than just the four areas of Meat, Dairy, Fruit, Vegetables - clustering spend across the sub-categories *below* those categories.  This would mean we could create more specific clusters, and get an even more granular understanding of dietary preferences within the customer base.
 
