@@ -16,7 +16,7 @@ We will use different classification algorithms to take on this task!
 <br>
 <br>
 
-### Results <a name="overview-results"></a>
+### Results
 
 The goal for the project was to build a model that would accurately predict the customers that would sign up for the *delivery club*.  This would allow for a much more targeted approach when running the next iteration of the campaign.  A secondary goal was to understand what the drivers for this are, so the client can get closer to the customers that need or want this service, and enhance their messaging.
 
@@ -28,10 +28,11 @@ Based upon these, the chosen model is the Random Forest as it was a) the most co
 
 - **Accuracy**: A very intuitive metric, the accuracy measures the number of correct classification predictions out of all predictions made. This number could be very misleading when you have very imbalanced data. An example of imbalanced data is a dataset where we have a 98%/2% split across 2 classes. 
 - **Precision**: Answers the question: of all observations predicted as positive, what proportion was actually positive?
-- **Recall**: Answers the question: of all positive observations, how many did we predict as positive?
-Usually, trying to improve *Precision* has the opposite effect on *Recall* and vice versa. So what metric to focus on is purely based on the project goals. 
+- **Recall**: Answers the question: of all positive observations, how many did we predict as positive?  <br>
+Usually, trying to improve *Precision* has the opposite effect on *Recall* and vice-versa. So what metric to focus on is purely based on the project goals. 
 - **F1-score**: Harmonic mean of Precision and Recall. A good F1-score comes when there is a balance between precision and recall. 
 
+### Key Drivers of Delivery Club Signups
 
 As well, the feature importances and permutation importances of the various input variables are shown below. This shows the key drivers behind the delivery club signups, which in this case are: Distance from store and Transaction Count.
 
