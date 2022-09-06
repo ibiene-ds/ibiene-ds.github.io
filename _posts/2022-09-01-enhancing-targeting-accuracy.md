@@ -8,11 +8,9 @@ ___
 
 # Project Overview  <a name="overview-main"></a>
 
-### Context <a name="overview-context"></a>
+### Problem Statement <a name="overview-context"></a>
 
-Our client, a grocery retailer, sent out mailers in a marketing campaign for their new *delivery club*.  This cost customers $100 per year for membership, and offered free grocery deliveries, rather than the normal cost of $10 per delivery.
-
-For this, they sent mailers to their entire customer base (apart from a control group) but this proved expensive.  **For the next batch of communications they would like to save costs by *only* mailing customers that were likely to sign up.**
+Our client, a grocery retailer, sent out mailers in a marketing campaign for their new *delivery club*.  This cost customers $100 per year for membership, and offered free grocery deliveries, rather than the normal cost of $10 per delivery. For this, they sent mailers to their entire customer base (apart from a control group) but this proved expensive.  **For the next batch of communications they would like to save costs by *only* mailing customers that were likely to sign up.**
 
 Based upon the results of the last campaign and the customer data available, we will look to understand the *probability* of customers signing up for the *delivery club*.  This would allow the client to mail a more targeted selection of customers, lowering costs, and improving ROI.
 
@@ -25,17 +23,19 @@ We will use different classification algorithms to take on this task!
 The goal for the project was to build a model that would accurately predict the customers that would sign up for the *delivery club*.  This would allow for a much more targeted approach when running the next iteration of the campaign.  A secondary goal was to understand what the drivers for this are, so the client can get closer to the customers that need or want this service, and enhance their messaging.
 
 Based upon these, the chosen model is the Random Forest as it was a) the most consistently performant on the test set across classication accuracy, precision, recall, and f1-score, and b) the feature importance and permutation importance allows the client an understanding of the key drivers behind *delivery club* signups. See table below for summary of all model results.
-
+<br>
+<br>
 ![alt text](/img/posts/model_summary.png "Summary of Model Results")
+<br>
 
-**Classification Accuracy**:A very intuitive metric, the accuracy measures the number of correct classification predictions out of all predictions made. This number could be very misleading when you have very imbalanced data. An example of imbalanced data is a dataset where we have a 98%/2% split across 2 classes. 
-**Precision**: Answers the question: of all observations predicted as positive, what proportion was actually positive?
-**Recall**: Answers the question: of all positive observations, how many did we predict as positive?
+- **Accuracy**: A very intuitive metric, the accuracy measures the number of correct classification predictions out of all predictions made. This number could be very misleading when you have very imbalanced data. An example of imbalanced data is a dataset where we have a 98%/2% split across 2 classes. 
+- **Precision**: Answers the question: of all observations predicted as positive, what proportion was actually positive?
+- **Recall**: Answers the question: of all positive observations, how many did we predict as positive?
 Usually, trying to improve *Precision* has the opposite effect on *Recall* and vice versa. So what metric to focus on is purely based on the project goals. 
-**F1-score**: Harmonic mean of Precision and Recall. A good F1-score comes when there is a balance between precision and recall. 
+- **F1-score**: Harmonic mean of Precision and Recall. A good F1-score comes when there is a balance between precision and recall. 
 
 
-As well, see the feature importances and permutation importance of the various input variables. 
+As well, the feature importances and permutation importances of the various input variables are shown below:
 
 ![alt text](/img/posts/rf-classification-feature-importance.png "Random Forest Feature Importance Plot")
 <br>
