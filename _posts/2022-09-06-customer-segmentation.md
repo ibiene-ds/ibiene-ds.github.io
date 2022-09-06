@@ -19,6 +19,8 @@ Since this is an *unsupervised* classification problem, the k-Means clustering a
 **More details on the project can be found in the Jupyter Notebook here: [Customer Segmentation](https://github.com/ibiene-ds/customer-segmentation)**
 <br>
 <br>
+___
+
 ### Results
 
 Based upon iterative testing using WCSS we settled on a customer segmentation with 3 clusters. These clusters ranged in size: <br>
@@ -36,7 +38,7 @@ For *Cluster 1* we saw quite high proportions of spend being allocated to Fruit 
 Finally customers in *Cluster 2* spent significant portions within Dairy, Fruit & Vegetables, but very little in the Meat product area - so similarly, we would make an early hypothesis that these customers are more along the lines of those following a vegetarian diet.
 
 <br>
-<br>
+___
 ### Growth/Next Steps
 <br>
 
