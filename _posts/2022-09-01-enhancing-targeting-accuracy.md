@@ -15,8 +15,8 @@ Based upon the results of the last campaign and the customer data available, we 
 
 We will use different classification algorithms to take on this task! 
 <br>
-<br>
-**More details on the project can be found in the notebook here: [Enhancing Targeting Accuracy](https://github.com/ibiene-ds/enhancing-targeting-accuracy)**
+
+**More details on the project can be found in the Jupyter Notebook here: [Enhancing Targeting Accuracy](https://github.com/ibiene-ds/enhancing-targeting-accuracy)**
 <br>
 
 ### Results
