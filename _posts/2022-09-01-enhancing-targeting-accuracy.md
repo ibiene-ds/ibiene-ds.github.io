@@ -13,8 +13,10 @@ The goal for the project is to build a model that would accurately predict the c
 
 Based upon the results of the last campaign and the customer data available, we will look to understand the *probability* of customers signing up for the *delivery club*.  This would allow the client to mail a more targeted selection of customers, lowering costs, and improving ROI.
 
-We will use different classification algorithms to take on this task! Project notebook can be found here.
+We will use different classification algorithms to take on this task! 
 <br>
+<br>
+**More details on the project can be found in the notebook here: [Enhancing Targeting Accuracy](https://github.com/ibiene-ds/enhancing-targeting-accuracy)**
 <br>
 
 ### Results
