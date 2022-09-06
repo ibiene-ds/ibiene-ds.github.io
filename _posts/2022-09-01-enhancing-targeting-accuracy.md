@@ -6,9 +6,7 @@ tags: [Customer Targeting, Machine Learning, Classification, Python]
 ---
 ___
 
-# Project Overview  <a name="overview-main"></a>
-
-### Problem Statement <a name="overview-context"></a>
+### Problem Statement 
 
 Our client, a grocery retailer, sent out mailers in a marketing campaign for their new *delivery club*.  This cost customers $100 per year for membership, and offered free grocery deliveries, rather than the normal cost of $10 per delivery. For this, they sent mailers to their entire customer base (apart from a control group) but this proved expensive.  **For the next batch of communications they would like to save costs by *only* mailing customers that were likely to sign up.**
 
@@ -35,7 +33,7 @@ Usually, trying to improve *Precision* has the opposite effect on *Recall* and v
 - **F1-score**: Harmonic mean of Precision and Recall. A good F1-score comes when there is a balance between precision and recall. 
 
 
-As well, the feature importances and permutation importances of the various input variables are shown below:
+As well, the feature importances and permutation importances of the various input variables are shown below. This shows the key drivers behind the delivery club signups, which in this case are: Distance from store and Transaction Count.
 
 ![alt text](/img/posts/rf-classification-feature-importance.png "Random Forest Feature Importance Plot")
 <br>
