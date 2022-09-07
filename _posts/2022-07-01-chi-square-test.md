@@ -6,7 +6,8 @@ tags: [AB Testing, Hypothesis Testing, Chi-Square, Python]
 ---
 
 In this project, we apply Chi-Square Test For Independence (a Hypothesis Test) to assess the performance of two types of mailers that were sent out to promote a new service! 
-___
+
+---
 
 **Some context:** Earlier in the year, our client, a grocery retailer, ran a campaign to promote their new "Delivery Club" - an initiative that costs a customer $100 per year for membership, but offers free grocery deliveries rather than the normal cost of $10 per delivery.
 
@@ -14,7 +15,9 @@ For the campaign promoting the club, customers were put randomly into three grou
 
 The client knows that customers who were contacted, signed up for the Delivery Club at a far higher rate than the control group, but now want to understand if there is a significant difference in signup rate between the cheap mailer and the expensive mailer.  This will allow them to make more informed decisions in the future, with the overall aim of optimising campaign ROI!
 <br>
-### Actions <a name="overview-actions"></a>
+---
+
+### Actions
 
 For this test, as it is focused on comparing the *rates* of two groups - we applied the Chi-Square Test For Independence.  
 
@@ -36,6 +39,8 @@ We set out our hypotheses and Acceptance Criteria for the test, as follows:
 
 As a requirement of the Chi-Square Test For Independence, we aggregated this data down to a 2x2 matrix for *signup_flag* by *mailer_type* and fed this into the algorithm (using the *scipy* library) to calculate the Chi-Square Statistic, p-value, Degrees of Freedom, and expected values.
 <br>
+---
+
 ### Results & Discussion
 
 Based upon our observed values, we can give this all some context with the sign-up rate of each group.  We get:
@@ -60,5 +65,3 @@ Our results here also do not say that there *definitely isn't a difference betwe
 
 Running more A/B Tests like this, gathering more data, and then re-running this test may provide us, and the client more insight!
 <br>
-___
-
